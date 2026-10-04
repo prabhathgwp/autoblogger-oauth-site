@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Privacy Policy — AutoBlogger</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header><div class="container nav">
+<a class="brand" href="index.html">AutoBlogger</a>
+<nav><a href="index.html">Home</a><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a></nav>
+</div></header>
+<main class="container"><article class="card">
+<span class="badge">Privacy Policy</span>
+<h1>Privacy Policy</h1>
+<p class="meta">Last updated: October 4, 2026</p>
+<h2>1. Overview</h2>
+<p>AutoBlogger is a personal automation project operated by its owner. This policy explains what information the application accesses when a Google account is connected for Blogger publishing and how that information is used.</p>
+<h2>2. Information accessed</h2>
+<p>When the owner authorizes AutoBlogger through Google OAuth, the application requests the Blogger scope needed to create and manage posts on the owner's Blogger account. The application may receive OAuth authorization data, Blogger API responses, post identifiers, URLs, and related publishing metadata.</p>
+<p>AutoBlogger does not request access to Gmail, Google Drive, Google Photos, contacts, or other Google services unless a future version explicitly changes its OAuth permissions and the user grants that access.</p>
+<h2>3. How information is used</h2>
+<ul>
+<li>authenticate the owner's Blogger account;</li>
+<li>create and manage Blogger posts requested by the owner;</li>
+<li>record publishing results, identifiers, and troubleshooting logs; and</li>
+<li>maintain reliability and idempotency of the publishing workflow.</li>
+</ul>
+<h2>4. Storage</h2>
+<p>AutoBlogger is operated locally. Application data and publishing metadata are stored in the owner's local MySQL database. OAuth credentials are stored in the local n8n credential store and are not intentionally published through this website.</p>
+<h2>5. Sharing</h2>
+<p>AutoBlogger does not sell or rent Google user data. Data may be transmitted to service providers required for the requested automation, such as Google Blogger for publishing, an AI provider for article generation, and an image provider when an image is requested.</p>
+<h2>6. Data retention</h2>
+<p>Logs, article metadata, and publishing records may remain in the owner's local database for operational history and troubleshooting.</p>
+<h2>7. Security</h2>
+<p>The application is intended for the owner's local environment. Access to credentials and local infrastructure is protected using the operating system, n8n credential storage, and local configuration controls. No website password or OAuth token should be entered into this public website.</p>
+<h2>8. Your choices</h2>
+<p>The owner can revoke Google access from the Google account's security settings or disconnect the OAuth credential from n8n. There is no public user account system.</p>
+<h2>9. Contact</h2>
+<p>For questions about this policy or the application, use the developer contact email associated with the Google Cloud project.</p>
+</article></main>
+<footer><div class="container"><div>© 2026 AutoBlogger</div><div><a href="index.html">Home</a> · <a href="terms.html">Terms of Service</a></div></div></footer>
+</body>
+</html>

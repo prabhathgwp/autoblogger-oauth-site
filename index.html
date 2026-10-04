@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>AutoBlogger</title>
+<meta name="description" content="AutoBlogger is a personal automation system for generating original news articles from reputable sources and publishing them to Blogger.">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header><div class="container nav">
+<a class="brand" href="index.html">AutoBlogger</a>
+<nav><a href="index.html">Home</a><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a></nav>
+</div></header>
+<main class="container">
+<section class="hero">
+<span class="badge">Personal automation project</span>
+<h1>AutoBlogger</h1>
+<p class="lead">AutoBlogger is a personal, locally operated automation system that collects news from reputable feeds, generates original article drafts with AI, optionally adds properly attributed licensed imagery, and publishes content to a Blogger site through Google's Blogger API.</p>
+</section>
+<section class="card">
+<h2>How AutoBlogger works</h2>
+<p>The automation runs through n8n on the owner's computer. MySQL stores application data, provenance, publishing attempts, and system logs. Blogger is the publishing destination.</p>
+<ul>
+<li>News is collected from selected reputable RSS/Atom sources.</li>
+<li>Stories are deduplicated and grouped into events before generation.</li>
+<li>AI is used to produce original editorial content rather than copy source articles.</li>
+<li>Optional images are obtained from permitted/licensed sources and accompanied by attribution when used.</li>
+<li>Blogger is accessed through OAuth 2.0 with the Blogger API.</li>
+</ul>
+</section>
+<section class="card">
+<h2>Google user data</h2>
+<p>Google OAuth is used only to authorize access to the owner's Blogger account for creating and managing Blogger posts. AutoBlogger does not sell Google user data and does not use Google user data for advertising profiling.</p>
+<p>See the <a href="privacy.html">Privacy Policy</a> for details.</p>
+</section>
+</main>
+<footer><div class="container"><div>© 2026 AutoBlogger</div><div><a href="privacy.html">Privacy Policy</a> · <a href="terms.html">Terms of Service</a></div></div></footer>
+</body>
+</html>
